@@ -1,0 +1,283 @@
+.imageHolder {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: rgba(248, 228, 228, 0.486);
+}
+
+.modalContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    top: 90px;
+    position: absolute;
+    font-size: 20px;
+    background-color: #FFF;
+}
+
+.modalImg {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.modalSubmit {
+    position: absolute;
+    top: 70%;
+    right: 50px;
+    color: white;
+    background-color: rgb(109, 56, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.modalClose {
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    color: teal;
+    background-color: transparent;
+    font-size: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.modalInput {
+    font-size: 20px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+}
+
+.modalText {
+    font-size: 15px;
+    white-space: pre-wrap;
+    letter-spacing: 1px;
+    line-height: 17px;
+}
+
+.modalInput:focus {
+    outline: none;
+}
+
+.modalFormGroup {
+    display: flex;
+    align-items: center;
+}
+
+.modalWriteIcon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    color: rgba(121, 118, 118, 0.657);
+    cursor: pointer;
+}
+
+.pencil {
+    margin: 20px 0 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.modalLabel {
+    display: flex;
+    flex-direction: row;
+}
+
+.modalLabel p {
+    align-self: center;
+    margin: 10px;
+}
+
+.loader {
+    display: block;
+}
+
+.hashtagsContainer {
+    border-top: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.hashtagsTitle {
+    font-size: 15px;
+    padding: 10px 5px;
+}
+
+.hashtags {
+    padding: 10px 5px;
+}
+
+.categoryContainer {
+    padding: 5px 8px;
+}
+
+.category {
+    display: inline-block;
+    border: 1px solid rgb(37, 121, 255);
+    border-radius: 25px;
+    padding: 5px 8px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(37, 121, 255);
+    cursor: pointer;
+}
+
+.buttonPane {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonPane button {
+    color: white;
+    background-color: rgb(226, 120, 0);
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+:focus {
+    outline: none;
+}
+
+.col-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px 3%;
+    width: 100%;
+    position: relative;
+}
+
+.promptBox {
+    font: 15px/24px "Lato", Arial, sans-serif;
+    color: #333;
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+.effect-8 {
+    border: 1px solid #ccc;
+    padding: 7px 14px 9px;
+    transition: 0.4s;
+}
+
+.effect-8~.focus-border:before,
+.effect-8~.focus-border:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #3399FF;
+    transition: 0.3s;
+}
+
+.effect-8~.focus-border:after {
+    top: auto;
+    bottom: 0;
+    left: auto;
+    right: 0;
+}
+
+.effect-8~.focus-border i:before,
+.effect-8~.focus-border i:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 0;
+    background-color: #3399FF;
+    transition: 0.4s;
+}
+
+.effect-8~.focus-border i:after {
+    left: auto;
+    right: 0;
+    top: auto;
+    bottom: 0;
+}
+
+.effect-8:focus~.focus-border:before,
+.effect-8:focus~.focus-border:after {
+    width: 100%;
+    transition: 0.3s;
+}
+
+.effect-8:focus~.focus-border i:before,
+.effect-8:focus~.focus-border i:after {
+    height: 100%;
+    transition: 0.4s;
+}
+
+.promptDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.prompt {
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hashtagLink {
+    color: #00b4d8;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.hashtagLink:active {
+    color: #00b4d8;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.generate {
+    color: white;
+    background-color: #3399FF;
+    padding: 10px;
+    border: 2px solid #3399FF;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.fileDiv {
+    align-self: center;
+}
+
+.fileBtn {
+    color: white;
+    background-color: #ffcf33;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 800;
+    border: 2px solid #ffcf33;
+    cursor: pointer;
+    font-size: 16px;
+}

@@ -1,0 +1,212 @@
+.singlePost {
+  flex: 9;
+}
+
+.singlePostWrapper {
+  padding: 20px;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.singlePostImg {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.singlePostTitle {
+  text-align: center;
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 28px;
+}
+
+.singlePostTitleInput {
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 28px;
+  text-align: center;
+  border: none;
+  color: gray;
+  border-bottom: 1px solid lightgray;
+}
+
+.singlePostTitleInput:focus {
+  outline: none;
+}
+
+.singlePostEdit {
+  float: right;
+  font-size: 16px;
+}
+
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.singlePostIcon:first-child {
+  color: teal;
+}
+
+.singlePostIcon:last-child {
+  color: tomato;
+}
+
+.singlePostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: "Varela Round", sans-serif;
+  color: #b39656;
+}
+
+.singlePostDesc {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+  white-space: pre-wrap;
+}
+
+.singlePostDesc::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.singlePostDescInput {
+  border: none;
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singlePostDescInput:focus {
+  outline: none;
+}
+
+.singlePostButton {
+  width: 100px;
+  border: none;
+  background-color: teal;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: 20px;
+}
+
+.commentwrapper p {
+  padding: 5px 10px;
+  font-size: 25px;
+  color: rgba(104, 104, 104, 0.582);
+  font-weight: 400;
+  margin-top: 45px;
+}
+
+.commentTilte {
+  margin: 10px 0;
+}
+
+.postInput {
+  float: left;
+  width: 27.33%;
+  margin: 40px 3%;
+  position: relative;
+}
+
+.effect-1 {
+  font-size: 20px;
+  border: 0;
+  padding: 7px 0;
+  border-bottom: 1px solid #ccc;
+  width: 60vw;
+  outline: none;
+}
+
+.effect-1~.focus-border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #3399FF;
+  transition: 0.4s;
+}
+
+.effect-1:focus~.focus-border {
+  width: 60vw;
+  transition: 0.4s;
+}
+
+.commentInput::placeholder {
+  font-size: 20px;
+  color: rgba(34, 34, 34, 0.534);
+
+}
+
+.postForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.postForm>div {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.postForm button {
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.commentBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.commentMsgWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.commentLoginMsg {
+  color: #666;
+  font-size: 23px;
+  font-weight: 500;
+  padding: 15px 0;
+  margin: 0 13px;
+}
+
+.commentLogin {
+  color: white;
+  background-color: #3399FF;
+  padding: 5px 13px;
+  border-radius: 10px;
+  border: 2px solid #3399FF;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.singleHashtagLink {
+  display: inline;
+  color: #00b4d8;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 15px;
+}
